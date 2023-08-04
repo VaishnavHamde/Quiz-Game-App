@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.Theme.QuizGame" parent="Theme.MaterialComponents.DayNight">
+    </style>
+
+    <style name="AppThemeSplash" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/blue_green_dark</item>
+        <item name="colorPrimaryVariant">@color/blue_green_dark</item>
+        <item name="colorPrimaryDark">@color/blue_green_dark</item>
+    </style>
+
+    <style name="SignUpTheme" parent="Theme.MaterialComponents.DayNight">
+        <item name="colorPrimary">@color/blue_green</item>
+        <item name="colorPrimaryVariant">@color/blue_green_dark</item>
+        <item name="colorPrimaryDark">@color/blue_green_dark</item>
+    </style>
+
+    <style name="Theme.QuizGame" parent="Base.Theme.QuizGame" />
+</resources>
