@@ -22,6 +22,7 @@ class MainActivity : AppCompatActivity() {
         mainBinding.buttonStartQuiz.setOnClickListener {
             val intent = Intent(this@MainActivity, QuizActivity::class.java)
             startActivity(intent)
+            finish()
         }
 
         mainBinding.buttonSignOut.setOnClickListener {
