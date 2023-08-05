@@ -29,6 +29,6 @@ class WelcomeActivity : AppCompatActivity() {
                 startActivity(intent)
                 finish()
             }
-        }, 2000)
+        }, 1000)
     }
 }

@@ -4,15 +4,17 @@
     </style>
 
     <style name="AppThemeSplash" parent="Theme.MaterialComponents.DayNight.NoActionBar">
-        <item name="colorPrimary">@color/blue_green_dark</item>
+        <item name="colorPrimary">@color/black</item>
         <item name="colorPrimaryVariant">@color/blue_green_dark</item>
         <item name="colorPrimaryDark">@color/blue_green_dark</item>
+        <item name="android:textColorPrimary">@color/white</item>
     </style>
 
     <style name="SignUpTheme" parent="Theme.MaterialComponents.DayNight">
-        <item name="colorPrimary">@color/blue_green</item>
+        <item name="colorPrimary">@color/black</item>
         <item name="colorPrimaryVariant">@color/blue_green_dark</item>
         <item name="colorPrimaryDark">@color/blue_green_dark</item>
+        <item name="android:textColorPrimary">@color/white</item>
     </style>
 
     <style name="Theme.QuizGame" parent="Base.Theme.QuizGame" />
